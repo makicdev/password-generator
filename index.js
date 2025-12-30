@@ -15,8 +15,10 @@ const characters = [
 
 let firstPassword = document.getElementById("password1")
 let secondPassword = document.getElementById("password2")
+
 let lengthEL = document.getElementById("length-el")
 lengthEL.value = 14
+
 
 function doGenerate(){
     firstPassword.textContent  = ""
