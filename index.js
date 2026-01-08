@@ -44,3 +44,9 @@ function copy2() {
     alert("Password copied to clipboard!")
 }
 
+function doReset() {
+    firstPassword.textContent = ""
+    secondPassword.textContent = ""
+    
+}
+
